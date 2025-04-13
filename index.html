@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Погода сейчас</title>
+</head>
+<body>
+<header>
+  <h1>Погодное приложение</h1>
+</header>
+
+<main>
+  <section>
+    <form id="weatherForm">
+      <label for="city">Введите город:</label>
+      <input type="text" id="city" name="city" required>
+      <button type="submit">Узнать погоду</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Текущая погода</h2>
+    <ul id="weatherInfo">
+      <!-- Информация о погоде будет здесь -->
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Погодное приложение</p>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
